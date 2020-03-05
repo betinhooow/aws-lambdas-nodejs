@@ -12,7 +12,7 @@ let fetchOneByKey = function() {
   var params = {
     TableName: "users",
     Key: {
-      email_id: "rnobre.dev@gmail.com"
+      email_id: "betinhooow@kakaka.com"
     }
   };
   docClient.get(params, function(err, data) {
